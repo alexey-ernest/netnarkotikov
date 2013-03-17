@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* RC home */
+
+#page #splash {
+	height: 442px;
+	overflow: hidden;
+	list-style-type: none;
+}
+#page #splash a {
+	height: 100%;
+	overflow: hidden;
+	width: 960px;
+	list-style-type: none;
+
+}
+#page #splash a:hover {
+	text-decoration: none;
+}
+
+#page #splash #splash-center {
+	padding-left: 70px;
+	background-image: url(../images/splash/center.jpg);
+	background-position: right center;
+	padding-right: 420px;
+	background-repeat: no-repeat;
+	width: 470px;
+}
+#page #splash #splash-family {
+	background-image: url(../images/splash/family.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	width: 400px;
+	padding-left: 500px;
+	padding-right: 60px;
+}
+#page #splash #splash-freedom {
+	background-image: url(../images/splash/freedom.jpg);
+	background-position: right center;
+	background-repeat: no-repeat;
+	width: 350px;
+	padding-left: 90px;
+	padding-right: 520px;
+}
+#page #splash #splash-lifepurpose {
+	background-image: url(../images/splash/lifepurpose.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#page #splash #splash-lifepurpose h1 {
+	margin-bottom: 0px;
+}
+#page #splash .intro {
+	color: #aeaeae;
+	font-size: 2em;
+	line-height: 1.4;
+}
+
+#page #site-themes {
+	height: 340px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#page #site-themes a {
+	height: 300px;
+	float: left;
+	width: 273px;
+	margin-right: 10px;
+	font-size: 1.2em;
+	color: #676767;
+	padding: 20px;
+	line-height: 1.3;
+}
+#page #site-themes a:hover {
+	text-decoration: none;
+}
+#page #site-themes #theme-family {
+	background-image: url(../images/home/family.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#page #site-themes #theme-addictive {
+	background-image: url(../images/home/addictive.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#page #site-themes #theme-info {
+	background-image: url(../images/home/info.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-right: 160px;
+	width: 133px;
+}
+#page #article {
+	font-size: 1.2em;
+	color: #676767;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}

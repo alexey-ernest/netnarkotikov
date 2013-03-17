@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* RC order-call */
+
+#order-call {
+	background-image: url(../images/order-call/order-call.jpg);
+	background-repeat: no-repeat;
+	background-position: right 180px;
+}
+#order-call #ordercall-form {
+	width: 40%;
+	font-size: 1.2em;
+	margin-top: 80px;
+	margin-bottom: 60px;
+}

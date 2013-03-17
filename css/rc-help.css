@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* RC help */
+
+#faq .question {
+	font-size: 1.1em;
+	margin-bottom: 40px;
+}
+#ask-question {
+	padding: 15px;
+	background-image: none;
+}

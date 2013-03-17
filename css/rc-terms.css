@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* RC terms */
+
+#terms-text {
+	font-size: 1.3em;
+}
+#terms-text h2 {
+	margin-top: 40px;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+#tabs #diff h2 {
+	margin-bottom: 20px;
+}
+
+#tabs #diff #diff-list {
+	list-style-type: none;
+	font-size: 1.2em;
+	margin-left: 0px;
+}
+#tabs #diff #diff-list li {
+	margin-bottom: 40px;
+	list-style-type: none;
+	height: 140px;
+	overflow: hidden;
+}
+#tabs #diff #diff-list li.highlight {
+	height: 100px;
+	font-size: 12px;
+	line-height: 18px;
+}
+#tabs #diff #diff-list li h3 {
+	margin-top: 6px;
+	font-weight: normal;
+	font-size: 1.25em;
+}
+#tabs #diff #diff-list li img {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	height: 64px;
+	width: 64px;
+}
+
+
+
+
+#tabs #diff #contact {
+	overflow: hidden;
+}
+
+#tabs #diff #another-contacts {
+	color: #6f6f6f;
+	margin-top: 10px;
+	clear: left;
+	float: left;
+	padding-left: 4px;
+	width: 100%;
+}
+#tabs #diff #random-reviews {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #f0f0f0;
+	overflow: hidden;
+	padding-top: 20px;
+}
+#tabs #diff #random-reviews p {
+	padding-left: 5%;
+	width: 25%;
+	background-image: url(../images/review-small.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#tabs #stuff .person {
+	margin-bottom: 50px;
+}
+#tabs #stuff .person img {
+	display: block;
+	margin-bottom: 15px;
+}
+#tabs #stuff #primary-stuff-preamble {
+	font-size: 1.6em;
+}
+
+#tabs #reviews h1 {
+	text-align: center;
+}
+#tabs #reviews .intro {
+	text-align: center;
+}
+#tabs #reviews #main-review {
+	font-size: 1.2em;
+	padding: 40px;
+	line-height: 1.6;
+}
+#tabs #reviews #review-list p {
+	margin-bottom: 3em;
+}

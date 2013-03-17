@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* RC contacts */
+
+#extra-info {
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+#contacts-internet {
+	float: left;
+	width: 30%;
+}
+#contacts-classic {
+	float: right;
+	width: 60%;
+}

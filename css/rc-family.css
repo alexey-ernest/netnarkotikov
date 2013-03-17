@@ -1,0 +1,63 @@
+@charset "utf-8";
+#family {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+#family .intro {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+/* RC family */
+
+#family #family-text{
+	font-size: 1.3em;
+	margin-top: 50px;
+}
+#family #family-text h2{
+	margin-bottom: 8px;
+	font-size: 1.5em;
+}
+
+#family #family-text .family-block {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#family #family-text #priznaki {
+	background-image: url(../images/family/priznaki.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 430px;
+	padding-top: 30px;
+	height: 320px;
+}
+#family #family-text #firstaid {
+	background-image: url(../images/family/firstaid.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 280px;
+}
+#family #family-text #prinuditelno {
+	background-image: url(../images/family/prinuditelno.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-top: 20px;
+	padding-right: 480px;
+	margin-right: 40px;
+	height: 340px;
+}
+#family #family-text #relations {
+	background-image: url(../images/family/relations.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 320px;
+	padding-top: 60px;
+	padding-left: 630px;
+}
+#family #family-text #coaddictive {
+	background-image: url(../images/family/coaddictive.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 380px;
+	padding-right: 460px;
+	padding-top: 120px;
+}

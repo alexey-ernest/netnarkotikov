@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* RC send mail */
+
+#send-mail {
+	background-image: url(../images/send-mail/send-mail.jpg);
+	background-repeat: no-repeat;
+	background-position: right 220px;
+}
+#send-mail #feedback-form {
+	width: 50%;
+	font-size: 1.2em;
+	margin-top: 60px;
+}

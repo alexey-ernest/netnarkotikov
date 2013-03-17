@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* RC review */
+
+#review-text {
+	font-size: 1.2em;
+	margin-bottom: 50px;
+	overflow: hidden;
+}

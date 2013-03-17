@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* RC */
+
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	background-color: #030508;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+a {
+	color: #08c;
+}
+a:link, a:visited, a:active { 
+	text-decoration: none; 
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-ms-interpolation-mode: bicubic;
+}
+h1, h2, h3, h4, h5, h6 { color:#000; }
+h1 {
+	margin-bottom:0.2em;
+	font-size:3em;
+	line-height:1.4;
+	font-weight:normal;
+	color: #333;
+	/*text-shadow: #78ceff 1px 1px 2px;*/
+	font-family: Arial, Tahoma;
+	/*behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc);*/
+}
+h2 { margin-bottom:.8em; font-size:2em; line-height:1.4; font-weight:normal; }
+h3 { margin-bottom:.3em; font-size:1.1em; line-height:1.4; }
+h4 { font-size:1em; line-height:1.5; }
+h5 {}
+h6 {}
+p { margin-bottom:1.5em; }
+strong { color:#000; }
+ul {
+	margin-left: 2em;
+	list-style-type: square;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+ul li {
+	margin-bottom: 1em;
+}
+ol {
+	margin-left: 2em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+ol li {
+	margin-bottom: 1em;
+}
+
+
+
+p.intro {
+color: #787878;
+font-size: 1.3em;
+font-weight: normal;
+line-height: 1.5;
+}
+
+.fltlft {
+	float: left;
+}
+.fltrgt {
+	float: right;
+}
+.clr {
+	clear: both;
+}
+.clrlft {
+	clear: left;
+}
+.clrrgt {
+	clear: right;
+}
+
+/* layout */
+.content {
+	-webkit-box-shadow: rgba(35,147,204,0.5) 0 0px 4px;
+	-moz-box-shadow: rgba(35,147,204,0.5) 0 0px 4px;
+	box-shadow: rgba(35,147,204,0.5) 0 0px 4px;
+	background: #fff;
+	margin-bottom: 10px;
+	behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc);
+}
+/*@-moz-document url-prefix() { .content { border: 1px solid; border-color: #f8fcfd #eaf5fa #d6ebf5;  } } /* FF2 */
+/*.content { *border: 1px solid; *border-color: #f8fcfd #eaf5fa #d6ebf5; } /* IEs */
+/*.content:nth-child(1n) { border: none; } /* reset for smart browsers */
+
+.content, .rounded { border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -khtml-border-radius: 5px; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+
+.roundedtop { border-radius: 5px 5px 0 0; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; -moz-border-radius: 5px 5px 0 0; -o-border-radius: 5px 5px 0 0; -khtml-border-radius: 5px 5px 0 0; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedbottom { border-radius: 0 0 5px 5px; -webkit-border-bottom-left-radius:5px; -webkit-border-bottom-right-radius:5px; -moz-border-radius: 0 0 5px 5px; -o-border-radius: 0 0 5px 5px; -khtml-border-radius: 0 0 5px 5px; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedright { border-radius: 0 5px 5px 0; -webkit-border-top-right-radius:5px; -webkit-border-bottom-right-radius:5px; -moz-border-radius: 0 5px 5px 0; -o-border-radius: 0 5px 5px 0; -khtml-border-radius: 0 5px 5px 0; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedleft { border-radius: 5px 0 0 5px; -webkit-border-top-left-radius:5px; -webkit-border-bottom-left-radius:5px; -moz-border-radius: 5px 0 0 5px; -o-border-radius: 5px 0 0 5px; -khtml-border-radius: 5px 0 0 5px; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedtopleft { border-radius:5px 0 0; -webkit-border-top-left-radius:5px; -moz-border-radius:5px 0 0; -o-border-radius:5px 0 0; -khtml-border-radius:5px 0 0; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedtopright { border-radius: 0 5px 0 0; -webkit-border-top-right-radius:5px; -moz-border-radius:0 5px 0 0; -o-border-radius:0 5px 0 0; -khtml-border-radius: 0 5px 0 0; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedbottomleft { border-radius: 0 0 0 5px; -webkit-border-bottom-left-radius:5px; -moz-border-radius: 0 0 0 5px; -o-border-radius: 0 0 0 5px; -khtml-border-radius: 0 0 0 5px; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.roundedbottomright { border-radius: 0 0 5px 0; -webkit-border-bottom-right-radius:5px; -moz-border-radius: 0 0 5px 0; -o-border-radius: 0 0 5px 0; -khtml-border-radius: 0 0 5px 0; behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc); }
+.content-frame {
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+.content-hframe {
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+}
+
+
+.replaced { overflow:hidden; text-indent:-9999px; }
+.last-float {
+	margin-right: 0px !important;
+}
+.columns-3 {
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+.columns-2 {
+	width: 47%;
+	margin-right: 6%;
+	float: left;
+}
+.columns-2dot5 {
+	width: 35%;
+	margin-right: 3%;
+	float: left;
+}
+.columns-2dot5.last-float {
+	width: 24%;
+}
+
+.button {
+	margin-right: 20px;
+	float: left;
+	background-image: url(../images/button.png);
+	background-repeat: repeat-x;
+	background-position: center -52px;
+	background-color: #50afe7;
+	border: 1px solid #2C86C2;
+	font-size: 18px;
+	line-height: 34px;
+	color: #FFF;
+	font-weight: normal;
+	padding-right: 20px;
+	padding-left: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 0 0px 3px;
+	-moz-box-shadow: rgba(0,0,0,0.4) 0 0px 3px;
+	box-shadow: rgba(0,0,0,0.4) 0 0px 3px;
+	behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc);
+}
+.button:hover {
+    background-position: center -58px;
+    border: 1px solid #165b89;
+}
+.highlight {
+	background-color: #fafafa;
+	border: 1px solid #e2e2e2;
+	padding: 50px;
+	color: #333;
+	background-image: url(../images/highlight.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	overflow: hidden;
+}
+.highlight.box {
+	padding: 15px;
+}
+
+.splitter-h3d {
+	clear: both;
+	height: 100px;
+	background-image: url(../images/splitter-h3d.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.splitter-h {
+	height: 1px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #f2f2f2;
+	clear: both;
+}
+
+.highlighted-button-desc    {
+	margin-top: 0px;
+	float: left;
+	padding-left: 0px;
+}
+a.more {
+	white-space: nowrap;
+	zoom: 1;
+}
+a.next-link {
+	white-space: nowrap;
+	zoom: 1;
+	background-image: url(../images/arrows.png);
+	background-position: right 6px;
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+a.prev-link {
+	white-space: nowrap;
+	zoom: 1;
+	background-image: url(../images/arrows.png);
+	background-position: -6px -94px;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+}
+a.prev-link.back {
+	font-size: 1.8em;
+	background-position: -6px -90px;
+}
+
+
+.center {
+	text-align: center;
+}
+.caption-box {
+	font-weight: bold;
+	color: #FFF;
+	background-color: #747474;
+	background-image: url(../images/caption-box.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 2;
+	margin-bottom: 0px;
+}
+.form {
+	padding-right: 18px;
+}
+.form input {
+	padding: 4px;
+}
+
+.form .textfield   {
+	border: 1px solid #b5b5b5;
+	display: block;
+	-webkit-box-shadow: inset rgba(0,0,0,0.3) 0 0px 5px;
+	-moz-box-shadow: inset rgba(0,0,0,0.3) 0 0px 5px;
+	box-shadow: inset rgba(0,0,0,0.3) 0 0px 5px;
+	width: 100%;
+	resize: none;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc);
+}
+.form input.error, .form textarea.error , .form select.error{
+    border: 1px solid #F00;
+}
+.form label {
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 4px;
+	display: block;
+}
+.form label em {
+	font-style: normal;
+	color: #a8a8a8;
+	font-weight: normal;
+	font-size: 0.9em;
+}
+.water-sign {
+	padding-top: 120px;
+	background-image: url(../images/water-sign.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu {
+	height: 59px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0c405c;
+	background-image: url(../images/menu_bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #0f4664;
+	border-bottom-color: #0f4664;
+	border-left-color: #0f4664;
+	overflow: visible;
+	position: relative;
+}
+
+#menu a {
+	color: #FFF;
+	font-size: 13px;
+	line-height: 60px;
+	padding-right: 56px;
+	padding-left: 56px;
+	float: left;
+	display: inline;
+}
+#menu .selected {
+	font-size: 14px;
+	line-height: 80px;
+	font-weight: bold;
+	background-color: #14e1ff;
+	background-image: url(../images/menu_selected.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#menu .selected:hover {
+	text-decoration: none;
+}
+#menu #menu-about {
+	position: relative;
+	left: -1px;
+	top: 0px;
+}
+#menu #menu-contacts {
+	width: auto;
+	position: absolute;
+	top: 0px;
+	right: -1px;
+}
+#header {
+	height: 280px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+}
+#header #logo {
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 134px;
+	width: 636px;
+	position: absolute;
+	left: 258px;
+	top: 44px;
+}
+
+#page {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+	background-image: url(../images/page.png);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	overflow: hidden;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	behavior: url(http://lazurniybereg-centr.ru/include/PIE.htc);
+}
+#sitemap {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 60px;
+	list-style-type: none;
+	overflow: hidden;
+}
+#sitemap a {
+	color: #868686;
+	display: block;
+}
+#sitemap a:hover {
+	color: #aeaeae;
+	text-decoration: none;
+}
+#sitemap li {
+	float: left;
+	width: 25%;
+	list-style-type: none;
+}
+#sitemap li a {
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+#sitemap li h4 {
+	margin-bottom: 14px;
+	font-size: 14px;
+}
+#footer {
+	background-color: #f6f6f6;
+	background-image: url(../images/footer.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	line-height: 50px;
+	color: #999999;
+}
+#footer #footer-content {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#footer #footer-content #copyright {
+	float: left;
+}
+#footer #footer-content #adresvseti {
+	float: right;
+}
+#footer #footer-content #sublinks {
+	margin-right: 300px;
+	margin-left: 200px;
+	text-align: center;
+}
+#footer #footer-content #sublinks a {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#page #page-footer {
+	background-color: #000;
+	margin-bottom: 10px;
+	background-image: url(../images/contact.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 120px;
+	width: 100%;
+	display: block;
+}

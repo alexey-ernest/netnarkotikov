@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#myth {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+
+/* CSS Document */
+
+#myth-text {
+	font-size: 1.3em;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+#myth #myth-text h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#myth #myth-text #myth-icon {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 0px;
+}

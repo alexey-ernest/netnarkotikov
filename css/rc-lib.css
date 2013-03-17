@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* RC lib */
+
+#tabs #myths {
+	background-image: url(../images/lib/myths/myths.jpg);
+	background-repeat: no-repeat;
+	background-position: center 170px;
+}
+#tabs #myths #myth-list {
+	margin-top: 500px;
+	font-size: 1.3em;
+	overflow: hidden;
+}
+#tabs #myths #myth-list .myth {
+	height: 220px;
+	margin-bottom: 40px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#tabs #myths #myth-list .myth h2 {
+	font-size: 1em;
+	margin-left: 90px;
+	height: 60px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#tabs #myths #myth-list .columns-2 {
+	width: 45%;
+	margin-right: 10%;
+}
+
+#myth-tasteall {
+	background-image: url(../images/lib/myths/tasteall.png);
+}
+#myth-solveproblems {
+	background-image: url(../images/lib/myths/solveproblems.png);
+}
+#myth-lightdrugs {
+	background-image: url(../images/lib/myths/lightdrugs.png);
+}
+#myth-brightlife {
+	background-image: url(../images/lib/myths/brightlife.png);
+}
+#myth-shortlife {
+	background-image: url(../images/lib/myths/shortlife.png);
+}
+#myth-drugaccess {
+	background-image: url(../images/lib/myths/drugaccess.png);
+}
+#tabs #articles #articles-list {
+	overflow: hidden;
+	font-size: 1.1em;
+	margin-top: 40px;
+}
+#tabs #dict #dict-list  {
+	font-size: 1.2em;
+	margin-top: 40px;
+}
+#tabs #dict #dict-list .dict-items {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
